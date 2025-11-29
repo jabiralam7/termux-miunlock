@@ -96,7 +96,7 @@ available options: `india, global, china, russia, europe`
   echo "UNLOCK_TOKEN" | xxd -r -p > token.bin
   ```
 
-We have successfully retrieved the unlock token! To unlock bootloader `↓`
+***We have successfully retrieved the unlock token!***  **To unlock bootloader** `↓`
 
 ```console
 termux-fastboot stage token.bin && termux-fastboot oem unlock
