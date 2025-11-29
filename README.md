@@ -1,5 +1,5 @@
 # Termux MiUnlock
-A program that can be used to retrieve the bootloader unlock token for Xiaomi devices. (and unlock the bootloader) using Termux
+A program that can be used to retrieve the bootloader unlock token for Xiaomi devices. (and unlock the bootloader without the official tool) using Termux
 
 **Note: This tool cannot bypass the 7, 14, 30 day unlock time.**
 
@@ -96,7 +96,8 @@ available options: `india, global, china, russia, europe`
   echo "UNLOCK_TOKEN" | xxd -r -p > token.bin
   ```
 
-10) Verify token & unlock bootloader.
+We have successfully retrieved the unlock token! To unlock bootloader `↓`
+
 ```console
 termux-fastboot stage token.bin && termux-fastboot oem unlock
 ```
