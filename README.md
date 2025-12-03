@@ -41,7 +41,7 @@ devices. using Termux.
 
 3) Clone this repo.
 ```console
-git clone https://github.com/RohitVerma882/termux-miunlock.git && cd termux-miunlock
+git clone https://github.com/jabiralam7/termux-miunlock.git && cd termux-miunlock
 ```
 
 4) Run ```setup.sh``` to install required packages.
